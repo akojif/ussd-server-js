@@ -1,20 +1,28 @@
 {
   "name": "ussd-server-js",
   "version": "1.0.0",
-  "description": "USSD app development with Javascript",
-  "main": "index.js",
+  "description": "A sample USSD server with Africastalking.com service",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akojif/ussd-server-js.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "USSD",
+    "NODE"
+  ],
+  "author": "Francis Akoji",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/akojif/ussd-server-js/issues"
   },
-  "homepage": "https://github.com/akojif/ussd-server-js#readme"
+  "homepage": "https://github.com/akojif/ussd-server-js#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
 }
