@@ -1,2 +1,2 @@
 # ussd-server-js
- USSD app development with Javascript
+ A sample USSD server with Africastalking.com service
